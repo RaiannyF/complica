@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Inter;
+    src: url(./fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:active {
+    text-decoration: none;
+    color: rgb(77, 253, 33);
+}
+
+.lista {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.line {
+    border: 1px solid #00E38B;
+    width: 218.04px;
+    margin-inline: auto;
+}
+
+.item {
+    margin-inline: 30px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.item:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.text1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #00E38B;
+}
+
+.div_principal {
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 51px;
+    margin-top: 80px;
+}
+
+.divlink {
+    background-color: #FFFFFF;
+    border: 1px solid #00E38B;
+    border-radius: 5px;
+    width: 555px;
+    height: 139px;
+    display: flex;
+    margin-inline: auto;
+    margin-bottom: 35px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.divlink:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+.imagem {
+    width: 102px;
+    height: 102px;
+    margin-block: auto;
+    margin-left: 20px;
+}
+
+.info {
+    margin-left: 28px;
+    margin-top: 20px;
+}
+
+.info_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.info_subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    margin-top: -12px;
+}
