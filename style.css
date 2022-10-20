@@ -121,3 +121,29 @@ a:active {
     color: #000000;
     margin-top: -12px;
 }
+
+.vertical {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    justify-content: center;
+    align-items: center;
+    margin-inline: 100px;
+}
+.icon_image{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.icon_name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    text-align: center;
+}
