@@ -122,6 +122,65 @@ a:active {
     margin-top: -12px;
 }
 
+.div_topico {
+    background-color: #FFFFFF;
+    border: 1px solid #00E38B;
+    border-radius: 5px;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    margin-inline: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.topico_nome {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 40px;
+    margin-block: auto;
+}
+
+.setinha {
+    width: 32px;
+    height: 15px;
+    margin-right: 50px;
+    transition: all 0.6s;
+}
+
+.setinha:hover{
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+.div_info {
+    background-color: #FFFFFF;
+    border: 1px solid #00E38B;
+    border-radius: 5px;
+    padding: 25px;
+    width: 1000px;
+    margin-inline: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify;
+    color: #000000;
+}
+
 .vertical {
     display: flex;
     justify-content: center;
@@ -131,19 +190,78 @@ a:active {
     justify-content: center;
     align-items: center;
     margin-inline: 100px;
+    text-align: center;
 }
-.icon_image{
+
+.icon_image {
     width: 150px;
     height: 150px;
     border-radius: 75px;
 }
 
-.icon_name{
+.icon_name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #000000;
+    text-align: center;
+}
+
+.icon_square {
+    background-size: 100% 100%;
+    width: 224px;
+    height: 309px;
+    border: 1px solid #00E38B;
+    border-radius: 10px;
+    margin-inline: 60px;
+}
+
+#um {
+    background-image: url('https://storage.googleapis.com/edocente-content-production/PNLD/PNLD_2018/Obra-76c28232-e217-4b27-8756-533f1226614b/76c28232-e217-4b27-8756-533f1226614b-thumbnail.png');
+}
+
+#dois {
+    background-image: url('https://covers.zlibcdn2.com/covers299/books/a2/2b/3d/a22b3d1a32b1c90e9a1807c45252ac10.jpg');
+}
+
+#tres {
+    background-image: url('https://covers.zlibcdn2.com/covers299/books/59/55/cc/5955cc268bc0192eb9a53411965a6628.jpg');
+}
+
+.sub_square {
+    height: 75px;
+    background-color: #00E38B;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 236px;
+    padding-top: 1px;
+}
+
+.sub_square_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.sub_square_subtext {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
-    line-height: 12px;
-    color: #000000;
-    text-align: center;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.image_text{
+    margin-left: auto;
+    height: 50px;
+}
+
+.video {
+    margin-left: 190px;
 }
