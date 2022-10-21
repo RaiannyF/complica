@@ -258,8 +258,9 @@ a:active {
 }
 
 .image_text{
-    margin-left: auto;
-    height: 50px;
+    margin-left: 100px;
+    height: 100px;
+    resize: none;
 }
 
 .video {
